@@ -132,5 +132,11 @@ public class VarastoTest {
         String expected = "saldo = 8.0, vielä tilaa 2.0"; 
         assertEquals(expected, varasto.toString());
     }
+    
+    @Test
+    public void deliberatelyFail() {
+        // To test stuff on Travis. Will be removed.
+        assertEquals("foo", "bar");
+    }
 
 }
