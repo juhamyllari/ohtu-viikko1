@@ -133,10 +133,4 @@ public class VarastoTest {
         assertEquals(expected, varasto.toString());
     }
     
-    @Test
-    public void deliberatelyFail() {
-        // To test stuff on Travis. Will be removed.
-        assertEquals("foo", "bar");
-    }
-
 }
